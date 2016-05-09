@@ -18,8 +18,8 @@ public class Main {
 		try {
 			ConfigurationBuilder builder = new ConfigurationBuilder();
 			
-			builder.setOAuthConsumerKey("TZ6yn1rkOnOWvRJM81aF1sgS0");
-			builder.setOAuthConsumerSecret( "oWjTRFDqZ41dP0CGKNquuV9oWHOC26Tk9b27MY3HIeDrBOIdhy");
+			builder.setOAuthConsumerKey("TZ6yn111rkOnOWvRJM81aF1sgS0");
+			builder.setOAuthConsumerSecret( "oWjTRFDqZ41dP0CGKNquuV9oWHOC2611Tk9b27MY3HIeDrBOIdhy");
 			
 			Configuration configuration = builder.build();
 
@@ -40,8 +40,8 @@ public class Main {
 	}
 
 	private static AccessToken loadAccessToken(){
-		String token = "723498836417720321-NX0j6RWICxNmhl4PkC1uhRGL210WeBk"; 
-		String tokenSecret = "Erqva0nQRfWP8XC9QS400ictq0N71QaxsPMkhozDc9P5X"; 
+		String token = "723498836417720321-NX0j611RWICxNmhl4PkC1uhRGL210WeBk"; 
+		String tokenSecret = "Erqva0nQRfWP8XC9QS400ictq0N1171QaxsPMkhozDc9P5X"; 
 		return new AccessToken(token, tokenSecret);
 	}
 

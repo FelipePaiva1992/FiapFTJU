@@ -18,8 +18,8 @@ public class Main {
 		try {
 			ConfigurationBuilder builder = new ConfigurationBuilder();
 			
-			builder.setOAuthConsumerKey("7LbK2SDxOvOI4pGVu4YHHxvIc");
-			builder.setOAuthConsumerSecret( "hrNLlc61ZUtYs2mLIrHYD5D1ioAlPnnzeCZu3oIlP8cGF6JaTN");
+			builder.setOAuthConsumerKey("TZ6yn1rkOnOWvRJM81aF1sgS0");
+			builder.setOAuthConsumerSecret( "oWjTRFDqZ41dP0CGKNquuV9oWHOC26Tk9b27MY3HIeDrBOIdhy");
 			
 			Configuration configuration = builder.build();
 
@@ -30,7 +30,7 @@ public class Main {
 
 			twitter.setOAuthAccessToken(accessToken);
 
-			Status status = twitter.updateStatus("Ol√° Twitter!");
+			Status status = twitter.updateStatus("Ol· Twitter!");
 			System.out.println("Tweet postado com sucesso! [" + status.getText() + "].");
 
 		} catch (Exception e) {
@@ -40,8 +40,8 @@ public class Main {
 	}
 
 	private static AccessToken loadAccessToken(){
-		String token = "26794379-wpBS4awpeMXRshfuLKqpBynLrlUcGQ3H5xYbVwbHa"; 
-		String tokenSecret = "c9cnRdDyasC8fclOEva35u1JZAVxlEpwZdwZlaL6Kl0EV"; 
+		String token = "723498836417720321-NX0j6RWICxNmhl4PkC1uhRGL210WeBk"; 
+		String tokenSecret = "Erqva0nQRfWP8XC9QS400ictq0N71QaxsPMkhozDc9P5X"; 
 		return new AccessToken(token, tokenSecret);
 	}
 
